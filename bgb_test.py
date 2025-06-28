@@ -1,5 +1,5 @@
 import pytest
-from main import get_bgb_price
+from bgb import get_bgb_price
 import io
 import sys
 
