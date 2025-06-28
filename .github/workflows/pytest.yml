@@ -1,4 +1,4 @@
-name: Fetch BGB Price
+name: pytest
 
 on:
   push:
