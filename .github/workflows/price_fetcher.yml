@@ -27,4 +27,4 @@ jobs:
         run: python main.py
 
       - name: Run tests with coverage
-        run: pytest --cov=main main_test.py
+        run: pytest --cov=.
