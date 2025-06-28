@@ -1,6 +1,7 @@
 name: Fetch BGB Price
 
 on:
+  push:
   schedule:
     - cron: '*/10 * * * *' # Runs every 10 minutes
   pull_request: # Runs on pull request creation and updates
