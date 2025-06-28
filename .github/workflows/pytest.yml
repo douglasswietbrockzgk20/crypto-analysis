@@ -7,7 +7,7 @@ on:
   pull_request: # Runs on pull request creation and updates
 
 jobs:
-  fetch_price:
+  pytest:
     runs-on: ubuntu-latest
     strategy:
       matrix:
