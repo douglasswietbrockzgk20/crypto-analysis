@@ -1,3 +1,4 @@
 ccxt
 pytest
 pytest-cov
+requests
