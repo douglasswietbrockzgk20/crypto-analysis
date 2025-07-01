@@ -1,5 +1,7 @@
 # https://hermes.pyth.network/docs/#/
 # https://docs.pyth.network/price-feeds/price-feeds
+# https://www.pyth.network/price-feeds
+
 url = "https://hermes.pyth.network/v2/price_feeds?"
 import requests
 def get_price_feed():
