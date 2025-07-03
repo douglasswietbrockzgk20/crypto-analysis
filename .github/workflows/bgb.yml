@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: '*/10 * * * *' # Runs every 10 minutes
   pull_request: # Runs on pull request creation and updates
+  workflow_dispatch:
+    inputs:
+      symbol:
+        required: true
+        default: 'BGB/USDT'
 
 jobs:
   pytest:
@@ -26,3 +31,5 @@ jobs:
 
       - name: Run script
         run: python bgb.py
+        env:
+          symbol: ${{ inputs.symbol }}
