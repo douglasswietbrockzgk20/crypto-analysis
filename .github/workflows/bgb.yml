@@ -1,4 +1,5 @@
 name: BGB
+run-name: ${{inputs.symbol || ""}}
 
 on:
   push:
