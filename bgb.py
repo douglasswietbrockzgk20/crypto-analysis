@@ -1,7 +1,7 @@
 import ccxt
 import os
 
-symbol = os.environ.get('symbol')
+symbol = os.environ.get('symbol', 'BGB/USDT')
 
 def get_bgb_price():
     """Fetches and prints the current BGB/USDT price from Bitget."""
