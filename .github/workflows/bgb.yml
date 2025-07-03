@@ -1,5 +1,5 @@
 name: BGB
-run-name: ${{inputs.symbol || ""}}
+run-name: ${{inputs.symbol || '' }}
 
 on:
   push:
