@@ -1,4 +1,4 @@
-ccxt==4.4.92
+ccxt==4.4.94
 pytest
 pytest-cov
 requests
